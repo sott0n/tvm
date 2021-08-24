@@ -44,13 +44,13 @@
 //
 
 // NOTE: these lines are scanned by docker/dev_common.sh. Please update the regex as needed. -->
-ci_lint = "tlcpack/ci-lint:v0.66"
-ci_gpu = "tlcpack/ci-gpu:v0.76"
-ci_cpu = "tlcpack/ci-cpu:v0.76"
-ci_wasm = "tlcpack/ci-wasm:v0.71"
-ci_i386 = "tlcpack/ci-i386:v0.73"
-ci_qemu = "tlcpack/ci-qemu:v0.08"
-ci_arm = "tlcpack/ci-arm:v0.06"
+ci_lint = "tlcpackstaging/ci_lint:20210823-232401-607bb9492"
+ci_gpu = "tlcpackstaging/ci_gpu:20210823-232401-607bb9492"
+ci_cpu = "tlcpackstaging/ci_cpu:20210823-232401-607bb9492"
+ci_wasm = "tlcpackstaging/ci_wasm:20210823-232401-607bb9492"
+ci_i386 = "tlcpackstaging/ci_i386:20210823-232401-607bb9492"
+ci_qemu = "tlcpackstaging/ci_qemu:20210823-232401-607bb9492"
+ci_arm = "tlcpackstaging/ci_arm:20210823-232401-607bb9492"
 // <--- End of regex-scanned config.
 
 // Parameters to allow overriding (in Jenkins UI), the images

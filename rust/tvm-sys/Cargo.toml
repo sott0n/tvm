@@ -85,4 +85,6 @@ enumn = "^0.1"
 [build-dependencies]
 bindgen = { version="0.57", default-features = false, features = ["runtime"] }
 anyhow = "^1.0"
-tvm-build = "0.2.1"
+# Modify for wasi-nn.
+#tvm-build = "0.2.1"
+tvm-build = { git = "https://github.com/sott0n/tvm-build", rev = "756047efd31c9771fe4fbf8d10b0f6cf74f2d901" }
